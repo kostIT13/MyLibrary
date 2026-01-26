@@ -23,22 +23,34 @@ Swagger UI документация: http://localhost:8000/docs
 ReDoc документация: http://localhost:8000/redoc
 
 📖 API Endpoints
+
 Метод	Endpoint	Описание
+
 GET	/books/	Список книг с пагинацией
+
 GET	/books/{id}	Книга по ID
+
 POST	/books/	Добавить книгу
+
 PUT	/books/{id}	Обновить книгу
+
 DELETE	/books/{id}	Удалить книгу
 
 🏗️ Структура проекта
 text
 MyLibrary/
 ├── main.py              # Точка входа FastAPI
+
 ├── database.py          # Подключение к БД
+
 ├── repository.py        # Работа с данными
+
 ├── requirements.txt     # Зависимости
+
 ├── models/book.py       # SQLAlchemy модели
+
 ├── schemas/book.py      # Pydantic схемы
+
 └── routers/books.py     # Маршруты API
 
 🛠️ Технологии
