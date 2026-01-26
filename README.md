@@ -1,7 +1,7 @@
-#📚 MyLibrary FastAPI - Библиотечная система
+# 📚 MyLibrary FastAPI - Библиотечная система
 Современная система управления библиотекой на FastAPI с полным CRUD функционалом.
 
-🚀 Быстрый старт
+# 🚀 Быстрый старт
 1. Клонировать репозиторий
 git clone https://github.com/kostIT13/MyLibrary.git
 cd MyLibrary
@@ -17,12 +17,12 @@ pip install -r requirements.txt
 4. Запустить сервер
 uvicorn main:app --reload
 
-🌐 Доступные адреса
+# 🌐 Доступные адреса
 Swagger UI документация: http://localhost:8000/docs
 
 ReDoc документация: http://localhost:8000/redoc
 
-📖 API Endpoints
+# 📖 API Endpoints
 
 Метод	Endpoint	Описание
 
@@ -36,7 +36,7 @@ PUT	/books/{id}	Обновить книгу
 
 DELETE	/books/{id}	Удалить книгу
 
-🏗️ Структура проекта
+# 🏗️ Структура проекта
 text
 MyLibrary/
 ├── main.py              # Точка входа FastAPI
@@ -53,7 +53,7 @@ MyLibrary/
 
 └── routers/books.py     # Маршруты API
 
-🛠️ Технологии
+# 🛠️ Технологии
 FastAPI — веб-фреймворк для API
 
 SQLAlchemy — ORM для работы с БД
