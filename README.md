@@ -1,24 +1,33 @@
 # 📚 MyLibrary FastAPI - Библиотечная система
+
 Современная система управления библиотекой на FastAPI с полным CRUD функционалом.
 
 # 🚀 Быстрый старт
 
 1. Клонировать репозиторий
+
 git clone https://github.com/kostIT13/MyLibrary.git
+
 cd MyLibrary
 
 2. Создать виртуальное окружение
+
 python -m venv venv
+
 venv\Scripts\activate  # Windows
+
 source venv/bin/activate  # Linux/Mac
 
 3. Установить зависимости
+
 pip install -r requirements.txt
 
 4. Запустить сервер
+
 uvicorn main:app --reload
 
 # 🌐 Доступные адреса
+
 Swagger UI документация: http://localhost:8000/docs
 
 ReDoc документация: http://localhost:8000/redoc
