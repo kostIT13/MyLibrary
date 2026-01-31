@@ -51,19 +51,12 @@ DELETE	/books/{id}	Удалить книгу
 text
 ```
 MyLibrary/
-
 ├── main.py              # Точка входа FastAPI
-
 ├── database.py          # Подключение к БД
-
 ├── repository.py        # Работа с данными
-
 ├── requirements.txt     # Зависимости
-
 ├── models/book.py       # SQLAlchemy модели
-
 ├── schemas/book.py      # Pydantic схемы
-
 └── routers/books.py     # Маршруты API
 ```
 
