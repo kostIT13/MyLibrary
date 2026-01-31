@@ -49,7 +49,7 @@ DELETE	/books/{id}	Удалить книгу
 # 🏗️ Структура проекта
 
 text
-
+```
 MyLibrary/
 
 ├── main.py              # Точка входа FastAPI
@@ -65,6 +65,7 @@ MyLibrary/
 ├── schemas/book.py      # Pydantic схемы
 
 └── routers/books.py     # Маршруты API
+```
 
 # 🛠️ Технологии
 
